@@ -1,33 +1,43 @@
-# Python/runtime
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.log
+*.pyd
+.venv/
+venv/
+aiot-venv/
+
+# Local config and runtime data
+python/config.json
+data/
 logs/
 *.db
 *.sqlite
 *.sqlite3
 
-# Runtime state/calibration outputs
-data/state.json
-data/*.jsonl
-data/*.csv
-calib_state.json
-python/calib_state.json
-python/lstm_co2.tflite
+# Backup files
+*.bak
+*.bak-*
+*.backup
+*~
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
 
 # OS/editor
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
-
-# Latex temporary files
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.fls
-*.fdb_latexmk
-*.synctex.gz
