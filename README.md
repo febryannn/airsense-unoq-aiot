@@ -13,10 +13,6 @@ Repository untuk sistem monitoring kualitas udara berbasis AI-IoT menggunakan Ar
 ## Dashboard
 
 - Dashboard: https://febryanferdir.eu.pythonanywhere.com/
-- Latest API: https://febryanferdir.eu.pythonanywhere.com/api/latest/UNOQ_Rian
-- Insight API: https://febryanferdir.eu.pythonanywhere.com/api/insights/UNOQ_Rian
-- Export CSV 5 menit: https://febryanferdir.eu.pythonanywhere.com/api/export_5min/UNOQ_Rian
-
 ## Catatan
 
 MQ135 digunakan sebagai estimasi CO2e/indikator kualitas udara, bukan sensor CO2 NDIR. Nilai utama dianalisis berdasarkan tren, stabilitas, dan risk score AI.
