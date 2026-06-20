@@ -1,0 +1,17 @@
+[Unit]
+Description=AI IoT Air Quality Monitor
+After=network-online.target arduino-router.service arduino-router-serial.service
+Wants=network-online.target arduino-router.service arduino-router-serial.service
+Requires=arduino-router.service arduino-router-serial.service
+
+[Service]
+Type=simple
+User=arduino
+WorkingDirectory=/home/arduino/ArduinoApps/tubes-iot-febryan
+ExecStart=/home/arduino/aiot-venv/bin/python python/main.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

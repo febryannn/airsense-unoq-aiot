@@ -1,0 +1,5 @@
+name: tubes iot febryan
+description: Sistem ini memantau kualitas udara 24/7 dengan Arduino UNO Q. MCU membaca DHT22, MQ135, dan OLED. Linux MPU membaca data lewat serial JSON Lines,
+ports: []
+bricks: []
+icon: 😀

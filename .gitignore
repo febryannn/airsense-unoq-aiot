@@ -1,0 +1,33 @@
+# Python/runtime
+__pycache__/
+*.pyc
+*.pyo
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime state/calibration outputs
+data/state.json
+data/*.jsonl
+data/*.csv
+calib_state.json
+python/calib_state.json
+python/lstm_co2.tflite
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Latex temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
